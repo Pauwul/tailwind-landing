@@ -1,0 +1,24 @@
+{
+  "name": "tailwind-landing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./input.css -o ./css/main.css",
+    "watch": "tailwindcss -i ./input.css -o ./css/main.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pauwul/tailwind-landing.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pauwul/tailwind-landing/issues"
+  },
+  "homepage": "https://github.com/Pauwul/tailwind-landing#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.1.8"
+  }
+}
